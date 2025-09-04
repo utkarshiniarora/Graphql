@@ -1,0 +1,97 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.searchLabel {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.search {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newPostBtn {
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.newPostBtn:hover {
+  background-color: darkorange;
+}
+
+/* NavTabs Styles */
+.nav-tabs {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+}
+
+.nav-tab-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: normal;
+  color: black;
+}
+
+.nav-tab-button.active {
+  font-weight: bold;
+  color: orange;
+}
+
+/* PostCard Styles */
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h2 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.post-card p {
+  margin: 0.25rem 0;
+}
+
+.post-card small {
+  color: #666;
+}
+
+.like-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  background-color: hotpink;
+}

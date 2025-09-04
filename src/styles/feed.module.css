@@ -1,0 +1,15 @@
+.container { max-width: 720px; margin: 0 auto; padding: 16px; }
+.header { display:flex; align-items:center; gap:12px; padding:12px 0; }
+.brand { font-weight: 800; font-size: 20px; color: var(--accent); }
+.searchLabel { flex:1; }
+.search { width: 100%; padding: 10px 12px; border:1px solid var(--border); border-radius: 10px; }
+.newPostBtn { padding: 10px 12px; border:1px solid var(--border); background:#fff; border-radius: 10px; cursor:pointer; }
+.tabs { display:flex; align-items:center; gap:8px; margin: 8px 0 12px; }
+.tab, .tabActive { padding:8px 12px; border:1px solid var(--border); background:#fff; border-radius: 999px; cursor:pointer; }
+.tabActive { border-color: var(--accent); color: var(--accent); font-weight:600; }
+.subTabs { margin-left:auto; display:flex; gap:6px; }
+.subTab { font-size: 12px; padding:6px 10px; border:1px solid var(--border); background:#fff; border-radius: 999px; }
+
+.feed { display:flex; flex-direction:column; gap:12px; }
+.sentinel { height: 1px; }
+.loader, .empty { text-align:center; padding: 12px; color:#555; }
